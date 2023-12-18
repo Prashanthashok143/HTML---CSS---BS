@@ -1,0 +1,38 @@
+/* #slides{
+    width: 300px;
+    height: 200px;
+} 
+#pic1{
+    width: 100%;
+    height:500px;
+}
+#pic2{
+    width: 300px;
+    height: 200px;
+} 
+img{
+    height: 100px;
+    width: 100%;
+}
+button{
+    height: 10px;
+    width: 10px;
+} */
+#carouselEx{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    height:100px;
+    width: 250px;
+    background-color: gray;
+}
+img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 100px;
+    border-radius: 100px;
+}
+body{
+    background-color: blue;
+}

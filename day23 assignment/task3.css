@@ -1,0 +1,31 @@
+#Signin{
+    position:relative;
+    bottom:500px;
+    left: 500px;
+    height: 300px;
+    width: 400px;
+}
+img{
+    opacity: 0.5;
+}
+#in{
+    position: relative;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#check{
+    position: relative;
+    top: 55px;
+    right: 300px;
+}
+#Remember{
+    position: relative;
+    left: 70px;
+}
+#BIG{
+    font-size: 30px;
+    
+}
+#FLIX{
+    font-size: 30px;
+}

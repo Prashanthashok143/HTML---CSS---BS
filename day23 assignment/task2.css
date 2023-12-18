@@ -1,0 +1,80 @@
+img{
+    opacity: 0.5;
+    width: 100%;
+    background-image: linear-gradient(white,black);
+}
+#BIG{
+    font-size: 50px;
+    position: relative;
+    bottom: 750px;
+    left: 50px;
+    text-shadow: 3px 2px 1px black;
+    letter-spacing: 3px;
+}
+#FLIX{
+    
+    font-size: 50px;
+    position: relative;
+    bottom: 750px;
+    left: 50px;
+    text-shadow: 3px 2px 1px black;
+    letter-spacing: 3px;
+}
+#Unlimited{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    position: relative;
+    bottom: 690px;
+    left: 300px;
+    text-shadow: 3px 2px 5px blue;
+}
+#Watch{
+    font-size: 30px;
+    position: relative;
+    bottom: 790px;
+    left: 420px;
+    text-shadow: 3px 2px 5px blue;
+}
+#Ready{
+    font-size: 30px;
+    position: relative;
+    bottom: 790px;
+    left: 150px;
+    text-shadow: 3px 2px 5px blue;
+}
+#Search{ 
+    border: ridge;
+    position: relative;
+    bottom: 750px;
+    left: 200px;
+    
+}
+#Getstarted{
+    border: ridge;
+    position: relative;
+    bottom: 792px;
+    left: 875px;
+}
+#dropdown{
+    position: relative;
+    bottom: 1330px;
+    left: 1000px;
+    display: inline-block;
+    
+
+}
+#English{
+    border: ridge;
+}
+#Languages{
+    display: none;
+}
+#dropdown:hover #Languages{
+display: inline-block;
+}
+#Signin{
+    border: ridge;
+    position: relative;
+    bottom: 1272px;
+    left: 1000px;
+}

@@ -1,0 +1,135 @@
+body{
+    background-color:gray;
+}
+/*section{
+    display: grid;
+    grid-template-columns: 30px 30px ;
+    row-gap: 2px;
+    column-gap: 2px;
+}*/
+
+    
+    
+    
+
+.div1{
+    width: 100px;
+    height: 100px;
+    border: solid 2px;
+    background-color: brown;
+    animation: colorchange 5s 1s ease infinite forwards;
+    box-shadow: -9px 6px 4px;
+    
+    
+}
+@keyframes colorchange {
+    from{
+background-color:white;
+
+    }
+    to{
+        border: none;
+        background-color:f8510c;
+        /* rotate: 360deg; */
+        translate: 100px 100px;
+        transform: skew(-30deg);
+        
+    }
+    
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    border: solid 2px;
+    background-color: brown;
+    animation: colorchange1 5s 1s ease infinite forwards;
+    box-shadow: -9px 6px 4px;
+    
+    
+}
+@keyframes colorchange1 {
+    from{
+background-color:white;
+
+    }
+    to{
+        border: none;
+        background-color:00a3f4;
+        /* rotate: 360deg; */
+        translate: 40px 105px;
+        transform: skew(-30deg);
+        
+
+    }
+    
+}
+.div3{
+    width: 100px;
+    height: 100px;
+    border: solid 2px;
+    background-color: brown;
+    animation: colorchange2 5s 1s ease infinite forwards;
+    box-shadow: 9px 5px 4px;
+    
+    
+}
+@keyframes colorchange2 {
+    from{
+background-color:white;
+
+    }
+    to{
+        border: none;
+        background-color:7eba00;
+        /* rotate: 360deg; */
+        translate: 205px -100px;
+        transform: skew(-30deg);
+       
+
+    }
+    
+}
+.div4{
+    width: 100px;
+    height: 100px;
+    border: solid 2px;
+    background-color: brown;
+    animation: colorchange3 5s 1s ease infinite forwards;
+    box-shadow: 9px 6px 4px;
+    
+    
+    
+}
+@keyframes colorchange3 {
+    from{
+background-color:white;
+
+    }
+    to{
+        border: none;
+        background-color:ffba00;
+        /* rotate: 360deg; */
+        translate: 145px -95px;
+        transform: skew(-30deg);
+        
+
+    }
+    
+}
+p{
+    font-size: 100px;
+    animation: windows 5s 1s ease infinite  forwards;
+    text-shadow:6px 4px 5px;
+
+}
+@keyframes windows {
+ from{
+    translate: 200px -300px;
+    color: lightskyblue;
+ }  
+ to{
+    translate: 350px -350px;
+    color: blue;
+
+ }
+}

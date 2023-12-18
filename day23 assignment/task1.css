@@ -1,0 +1,231 @@
+/* #div2{
+    height: 200px;
+    width: 100%;
+   } */
+body{
+background-image: linear-gradient(black,white,black,white);
+
+   }
+#header{
+    border: outset 3px;
+    
+}   
+#prisonbreaking{
+    position: relative;
+    top: 85px;
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(to right ,white,black);
+
+}
+#prisonbreakpic{
+    position: relative;
+    left: 550px;
+    top: 50px;
+    height: 300px;
+    width: 500px;
+    
+    
+}
+#big{
+    position: relative;
+    right: 490px;
+    bottom: 50px;
+    font-size: 30px;
+}
+#flex{
+    position: relative;
+    right: 495px;
+    bottom: 50px;
+    font-size: 30px;
+}
+#prisonbreak{
+    position: relative;
+    right: 610px;
+    font-size: 30px;
+    color:white;
+    background-image: linear-gradient(#ee671d,#b84818,#6f300d,#291c16,#131110);
+
+}
+#imdb{
+    position: relative;
+    right:830px;
+    top: 30px;
+}
+#rating{
+    position: relative;
+    right: 820px;
+    top: 30px;
+    
+}
+#search{
+    height: 5px;
+    width: 90px;
+   position: relative;
+   top: 30px;
+   left: 20px;
+}
+#play{
+    height: 10px;
+    width: 40px;
+}
+#Play{
+    position: relative;
+    bottom: 100px;
+    left: 10px;
+    height: 40px;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 1px 1px black;
+}
+#Plays{
+    position: relative;
+    top:500px;
+    left: 10px;
+    height: 40px;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 1px 1px black;
+    z-index: 1;
+}
+#Trailer{
+    position: relative;
+    bottom: 100px;
+    left: 10px;
+    text-shadow: 2px 1px 1px lightblue;
+}
+
+#Newthisweek{
+    position: relative;
+    top: 70px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 1px 1px black;
+}
+#Trending{
+ 
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 1px 1px black;
+}
+#fairplay{
+    display: none;
+    height: 150px;
+    width: 185px;
+}
+#fair:hover #fairplay{
+    display: inline-block;
+}
+#viking{
+    display: none;
+    height: 150px;
+    width: 195px;
+}
+#vikings:hover #viking{
+    display: inline-block;
+}
+#game{
+    display: none;
+    height: 150px;
+    width: 183px;
+}
+#GOT:hover #game{
+    display: inline-block;
+}
+#gk{
+    display: none;
+    height: 150px;
+    width: 190px;
+}
+#GunturKaaram:hover #gk{
+    display: inline-block;
+}
+#svp{
+    display: none;
+    height: 150px;
+    width: 185px;
+}
+#Sarkaruvp:hover #svp{
+    display: inline-block;
+}
+#Popular{
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 1px 1px black;
+}
+
+
+ #RanaNaidu{
+    display: none;
+    height: 180px;
+    width: 190px;
+}
+#Rana:hover #RanaNaidu{
+    display: inline-block;
+    
+}
+#mirzapur12{
+    display: none;
+    height: 150px;
+    width: 210px;
+}
+#Mirzapur:hover #mirzapur12{
+    display: inline-block;
+}
+
+#Family{
+    display: none;
+     height: 150px;
+    width: 200px; 
+}
+#FamilyMan:hover #Family{
+    display: inline-block;
+}
+#M111{
+    display: none;
+    height: 150px;
+    width: 190px;
+}
+#H111:hover #M111{
+    display: inline-block;
+}
+#asur2{
+    display: none;
+    height: 150px;
+    width: 170px;
+}
+#Asur1:hover #asur2{
+    display: inline-block;
+} 
+
+#Signin{
+    position: relative;
+    top: 400px;
+    left: 250px;
+    height: 250px;
+    width: 250px;
+}
+#Email{
+    position: relative;
+    left: 20px;
+}
+#password{
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+#sign{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#check{
+    position: relative;
+    top: 60px;
+    right: 160px;
+}
+#Remember{
+    position: relative;
+    left: 50px;
+    top: 24px;
+}

@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>Notes</title>
+<style>
+ #heading{
+    text-align: center;
+    text-decoration: overline underline dashed lightblue;
+    text-shadow: 2px 3px 8px red;
+    color:blue;
+ }  
+ #first{
+    border-style: ridge;
+    border-color: brown;
+    border-width: 10px;
+    border-radius: 20px;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWFRgWFRYYGRgYGBgZGhgaGBgYGBgaGBgZGRgaGRgcIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHzQrJSs0NDQ0NDQ2NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAADBAACBQYBBwj/xAA9EAACAgEDAgQEAwYFAgcBAAABAgARAwQSITFBBSJRYRNxgZEGMqFCscHR4fAUUmKS8SNyFRYkU4Ki0gf/xAAZAQADAQEBAAAAAAAAAAAAAAABAgMABAX/xAAnEQACAgIDAAIBBAMBAAAAAAAAAQIRITEDEkEEExRRYXGRMqHwIv/aAAwDAQACEQMRAD8A+Y+G6jO6tpMVFczA7DtHmWjYZqonYB1/WBXSlScLqyZCwADKBzdU26qHvz06RfDn2sGCqaFEFbDAiqYdOncUe/Wap/EeobCcByf9Ioq7W8xG2mpWrdyVIo2ADUGfBlXpRc+TTl8e1A63bsLZQKZAhPTnzAAc7ueBxnZt5Y7ybYh2J6ecAhjXqGB+sb0+qxqHUgOhXh3SsoO0ABRvIWj354HvU6fw3JoH8PZHAGRFtqUNmBLfnSwLUGiQDwvXvBdGSv05PC4xFmDozI4oUWDbWsOrVVcexo/SKtlLFuB5ieFFAEm/KO3p8oyciYsiNjbftoliNoLWT5R1qq5PN37QSYXfLsCkszFQpPIPTk+3r7QgLaLUNjYMLBFGhxfFg88dLPII9qM3NA2my5izu4dktXZVVEyL0IUEkgUgC83yPSZWk0OQFmUpuxDeyMQTSjcTXRq5BHUdDGdJpXYM2JQMLcneARa/sWLJotx0viYyO6XTo+nXDl4bMWUtyayBbYqp/KLQ0BQ4vvzxK6HIzrjwbycLurOQEC2x8x8x2/la+eizoPwRgfeHUI2Pa6My7l8yEbSVJ/MwYG9o4Hzvq9X4erJkTaAMobeQOSWFbj6np9oLpj1aOW/DpVsr4mQu2nZxjzMvFAqpWuiniwPQnp36tcnrEfA/CRpsWwNuJYsxquSAOB6UB1Jj5AM2wpUAz6XHk/Oit5WWyASAwpgD2v2mXrvClLK3wjkZX3g7uGFqCj2RRobh2JXmro7aoO0IuOA1HzTwwFcwK7w75nSgANtildsY/wAtvanirroZ9BCEgbquhddL71LroEV2cIN7VbdzQofLiFE3YHURfFAFJq/DBgc2COpCyiZxSVKRhsZE8Cx+xPqAZZRljLJB5BCmBoTyLAhLjRSRz2EdSJ9Rcj06wmPTE8mXFLzE8uZm4EKt6M6js81mUflX7xJcRM0dJod5AMPqUXH5V5bvxxKKSjhE3Byy9GQ+KoN1qN5E43E/IVFXQysWSkqBST2p7UYU8ns9AntTAK1JLVJMY42GULtNsQwrau2wQfzea+COO3PP10vw/wCEnPkoKWVVtgquaJsBSV/KTRIPTgX3mdq8RR2QiipKn3IY8/36Ty7zR6lYsmILfn3baP5aJvadp56jdV+11NT8OIAxzFiPgHG7Ko8xxlwrsCQQQu5bBHO4+5mOjDixYBHHSxfS+0NjYbuCURjR5JpTW4ccsK7TNGTN3xxUfFjfDhRd+bKpKByx2bTjBBrbuXJupRzQPahTUa/U4cq6gp8P4ijycKrqtK1oeQCfUd+pmx+HdZnxo3+HZXYOQuO7XKpA8zEmt6+VaFHaeeKM6bSeDprMWHLrU3ZdlGi6KBuZhagjzURfvcTt12V69tbPnvgHgLahgVyYlINsjG228Gwi9VN0RYrm5oeD+E58N50ws+VMxx/DFhNtWW9SOCBfHQ81U7Xwz8IYsGobOjXu3bVqgm4g0pHtuHPY/fdXGfSK+ReBXE/Tg00WpTxKlZlxtWQ9dhQKFKUPLYNKPSwZ2RMaKEdYJluDtYetAGx3BHHGQkJ8LiHtRutiKY4VUMONOahExtY4mczKIoWYdQZ44vmdQ/hpyYgCBuXoR1+R9pz5x1uHpBGSZmvBVeJ5klqnjCUFAMogGSoxklahTJtAKi78mOusWdfSPFiyQvUDlYDp1hsj1wIvt9ZWKJSfiAhNx5hhgAh8ePi5Voe1i9UlbCIVVTV7jwPb3iy46tn6epkuX2WPMeP3/SFKjOVmbkYn++IIrHsntAkGWTOeSyJNjlKmguKzKnALjqQvUUVJ7tjLJB7YbFYLbJC7JJrAc/4mm1mLBkzs+9lUBUxhrO0AWQd1Ecih+mW3PXn37/eXxngnjhao9w1Lx6kbr/8Aj7TRGhDPgQKynLjT3G9mZVb/ALSArGunPynmaPW2I5tPQVr4a64NcVu59rENpdPjFO5V1Ckum5kbkOBtNG6oGxxyAe8ZfSFbxhy+VcjImIKxWzw7K1bSbFEdO9muVvEvDM2BlGZCpYWLIbgGuCCRx6fL1ms1Vmhv8NDAcqNny/DTDT2BbOwcUq7Rd8gnqaU17fatDlx5kL433C2HII5U0eDzPieMZGVMmXG+RFOxa8hPIHLBT61frx2n0LwXNkw6htMFAwBPiIwFFNzcoT0bzFveQ5o3lF+GVYOoyDnr0lBnI6wm9DFtSV7SMX4y8lWUNo6kcy/wh2mP8Su89XWEd43V+Cdl6ab4BIEoRbFrb6x3G4MztbMqegaqSOsvhBHXmWY1PcYEFjUaej1dGvWZvjOlCvuXo3J+ff6SxEeTMChDi+OPWBOhJRzZzDpBFI5lXkwDLOhMlJCri55UNslWlLJizmAZY0RAZDcZAYsyX2lBhA6xpElWEdSJtLYvkc9IHaTGji9ZDjjJpE2m9gFxmunEq2EntG1x+sb0+LuB95nKhlCzHbSkdjIulvvQ95r59I7ck2O3/EXfTVGU7ElCvDPOICDZJq/4E7dzcD9ftE3Udo8ZWTlFoROOVKRpklSkomSaFtkkLQkjWKZuHwVNTpkbHtTJuYuaNM35WBA6cgEVwOaHMYb8HM3mbUtvDHzUWpaG2uQQfze3P3O3jOnwoiYySnHnUAgc02++dx6+psmPaHxxMj7Es8WCCCCPkDYHPep5jvw9VV6Laf8ADP8A6dUfJWQBxvXkKuQrvQA1YIDfV2mpl8HwvjxY3UuuKghY+bgUQxHUHuOnAmmi2IQIPaSciyiLjCGAXaKFEDsNpBHHsQIyuMwbgiXTLFdjKkQ2JRnMY2hhxKNiiphoQe5UPG3xRbJjlU0ybTIj0Y9hzn1mdLK0LVmTNtMtxzTsJz+PMRHtPqZGUSkZGw6E9INyQO8rg1QjW9TEutj70ZD8mDZJqvob5WJFJaMk9EZRYmyRd0j7r2lFx0OftHUhetmZkBgfhzRz4rgAlSkZYJyjkCmEtDNhC+5/dCB6FATxkJgtmpIVdYApHWQmepg9Y6kI42KIhJmngxkHzA8duk8xY+eJo4NA79/L3N8RJSHjEWZkP5R/GXw4DRajwL4EbyvjThV3sO45H6TJ1viTtx+Qei8X8/WCNy0GTUdiviJJNs3yFTNcQ7tAOJ1wVI5Ju2BcwLCMMsGwlUQkB2yS9SRrJ0fPEHPfn06/ad7+GNBjCrkW7ogjcWG7oxAN7T7g9645E4FX96M6LH4/qKRUYDalUFB3mv4D0/WefJWepF0zuWzgUCwBPAF0TPCxmJ4VkTOVzMQGTyqG/N5uhs+o7i+kb1njWLGxRiSwANKLsH0PSIUs01dhG9GpY1OZ1vimQuUwqCaVwbBJX9ry/cdexml4B4vvNONjU18ivKRfBNjqP1iSeBotWdKmKhI6T1DcuBIWXF3SLvjmgUgnxR4yEkjKfFBnHNNsMG+KP2J0IhYXEZ6yyqg3DYR1DGlzRdEhNkm2h1Y2mrInuTOCOQLiypPHMVUa2ByP3lVymFJB4l0099JRSXoji/AO8/2IB0mg+mK9YI4yY6kvBXF+i2NiOwh1wljDYtKx6LZ+UaHh2UD8oA+YuCU0ZKsMQfSn0/hAlK6zWzY3Ve3A+sycmUHtNGTZppILiq+k29MSy7eAOl9ZzyEk0Os18Oj8u8s9egA6+3ME0aLCa/4WNa3WfQcWfpOU1DWbqv79ZpazSMLbt/qYbvtczGl+KKStMlytvDF2EGwhmgmnSmcsgLCDYQzGBYykSMilSSbpIxOzic2jTHnCZWXZalthNVXQCz3Bvr1jes8Rxh/+gqooHUea2qg4LLa1fYD1nOvkLdTfv3+p7wuCro8D149OOfScLVnpGhqfE8zqEdyVHIs3fFA+/HeUw0epsnv/ADiimz0jeLTk9B0gpJGNnA7tRLsSBV2enSp0nh6rTh6tyG4sUV/zEiz8r7Gc3osGVTQu+OL5N9OO/wAp1XhOnfd/1F8u0NXSxx6TllsvA3fD8jtYVQEs0aqvav4zURIvgKjpx7RtDJs6EeiTbPSsuixbDQJki2VJpkcTmdJ+IsWfJjxYx52LjIjna+L4a+ZSD+dtxAFdQGPYxo2xZJIafFIuK5pHTy+LSzdwdAePTcCWOCbGDTcTl/xH4XqxqEzaJvOVCZUcD4DIpYoWYmwwth5QTyOg6qm29mcoo0mShFHSE8I8OfDgVMjB35Z2BYhmclmNtyeSew+Qjq6aDtTHq1Znpih0NRr4E8+FUbtZutAjz1gmFQ2Scj+Im1ePN8TStv3BVbTsrMOLplI4TiwSSo4HU0I0MuhJOjr9Jqthrj5R468HpOB/D2hz/Fy6jUIEyZPKo37iuMEUoUDaBxd2ST2HfoVJjSgr2BO9o1NbbL6j6TCyY6MeOY1B7Qep5hg+oJxUimlG02R9ZvK6sNzv0/ZviYGVGHQ/aB2/5j/GM49s2In1xQ14lqUa1VB/3DipmakIFFfm7w76qlIA69wAJntLwjRHkkBaCaFYj1gWcTpicsgbwTCXZ4MvKI55NHm2STdJHFtHy8H+6FfaHwoWPb19P6Quk8NfICyCwCA3arvsL446wIBVqv245FH0Pf5j6TiPSNzR+EO6F0Q0pG4lhXTng+9/KaeAIhG2gQdpH7L0RTWffmunE5nDme6VjVAc8cDpx85raTU0Ruo9LAB49j/QyM1KgxdM7rB4enxd4FKApWu56k3163NoTnPCvF8QSlNHvu6kn0mxofEUyflokc10Mi6OmLGs2MsjKCVJBAZTTC+4PYwPhmkyId2TM2RtoUHaEUAGydimtx7t7RhHU9OfkYZWHvFsahlMpiP/AJiwrmbBktHBQICL+IrkKGSuoBJv02k9BGkb+6lRo8RcOUQuOjlF3j5MRYiY9Hz4aam5XSeH40ZmVFDN+d6t3rpuc+ZvqZXGI7gUybY0tWEXBcKmmh8KQOfwZXffvfH2IxtsDj/X1s+/BhjGzmlyPQ5hx8TzLj4jOLEFAUdAKH0liko4YJdsmQdPAs6AuC6goNzgkDYpFgt6CgefabDpMPxX8P4c7q+QG1G3ynYWU9Vdhyw9rHUyLjTyUXIwu4EAjkEWD6g9IBxH2xgTO8WyMmJ3RdzIu8KOrBeWVf8AUVBA9yJlui0ZoEywLoIt+H/FRqkfMlfDLlcflIbaqJu3333b+napoOkfMXTKKpK0JlJVkhnSTBg3Hk1GUgOIBEEs1dAJrp4egHJgc5xJ+apu2RLRkMoqySPpM7UZefKb96qN6/WKbCX/ACmS5nXxRe2c3LJaRHYwD/OXaCedCOWRRvnAtCMIMiVRGRQiebZep7tjWSopUkvtkm7B6nzzwbNTsGJCsp3AHbY9D7C7+Qi2UqCCpPS+lUR0A+Qr05kTHfmNC74/eOI/pcGM15qA6mrPXnt1rn6TlcqO8Fj0zL1oUAevW66Edes19LpyhRnWgb8psHncATxwLH1jOt1CMqAUwUUHqjwBxXr0snrXbvTBqQO5PTrRAr2qRnOx0kM5NIo86VQO0rdkNfXpXPPA7COaZHsV+3wa+fQjtK6HNu8qdSRxQ544o+s1ERt4pe/HI68WCwPbic8sloo6PRaXYoFfO/WPJgPpENLqnrzVfzmlp9Yn7X6RJKR0xcS2PTHvGE08Jp9XhJN2PQ1d/aPaXVYieAR7sKB+sn/6ewOdaQomCNYsc0MYU8gCjChF9IVBshLlsBiWNosihYQS0IURbF11aFmUMu5KLruFqCLBYdhXMF4Zr0z4lyoGCNZXcNpKhiAwH+U1Y9QRM/xr8L4NVkV8q0VFWlq7Dnys4PK89KB96JE1dHpExIqY1CqooAfxJ5J9zzLNYAXaBYRloB5yzQUAZYrqMSsCrAFSKIIsEdwR3EadTMzVZCJItxx7EpFAVQFA6AAAD5AdIpmzCVbMvc/pKWh6tUZfudCjSKoC5ocx/T6fZ+YgQDatUXgX6Vx+6ZuozFzdn73KJOX8CydGjq/FFWwLMwtVnZzz0hSkqcctFRiRl2lgSZINkj5xypxSq5ESfGzPZJQpNE4ZQ4Y65UK+IzTjlDjmmcEo2CMuVE3wmd8OT4ceOCeHBH+1CfSxPbPI58GSb7ED6WfH8V9CRV/X7zR0+oVL29zxfND09/6TIDmWQkxWrLG0NTuoFia6DsPoPnG8LL6TI04mlgQmQ5IpBTNfTZTYCjmxXz7TscWgTcGZyBS2FHVh1J/pOe8D0wTIodaLgbWPRd3AP16Tsl8NYen3M4+0V6dnHCVZR7pcKWd1sL49T845h0oLBRjB9eWH6weDSlf2FPz5j2FHB/YHsB/SJKedleuND2PwfH6H/cYUeFJ2LD6g/wAJ7jyHvDrqYin+pCSkng8waQr+28aRT6mATUiWGpEdTSJuMnscVh2llMROpA5uW/xIPeOudIRwY8WlC8ROqHrK/wCMUdTM/kWFQl+g8XgTyfrFW1if5hC4s6ddwv0uJ37PIesl4GzETM1D0Y58QN3iGvemVQRXUk9OetwSlbspxRzQu+Ueg+0SzAHsI1rQirakEH3uJPuAJrgVfI7zJnTFYF2SVqRssqd1XXEZzaCopl1UQ6IlckzP+IYRcnqRJynL9SkYRfg38NezfcH+Eo2KAGrUen3hl1V+n3iPkktj/VF6KnHPDjhhmHpL7x6QfezPgQoccqcccLCVNRl8hiP46FPhTw445Qnm0R/yRfxkJ/CnsboSQ/kA/GR+eUWHRYMRjA4ueweUP6PCx6CdP4RpsSuDlJIHJoDZ8ix4u+0zNFgYKGum6gV0+fvNZciFCjA0etfO/pIy4pS2GMlF2a3g3iiHIzbVCLai13MRbEck8Hn9Z0Q8ax+rfKuZx+LKlALwBCvkCi+voPUyMvix9OmPyZLB1y+Np1832H85f/xxOu1v/r/OcC2rdjzwL+30nnxiLFk/xkXwxXg/3SZ9GTx1D0J/T+cmo/ECIOPMfTpXzM4BcxHcj26QObWHnn9ZP6os32M7rL+J1utv69fb2lk/Eqcimu/Y/Xkz56upuN6bNxfpD9cTLkZ9FPjmPbe8AcWO/Ivp9I6mpoX7T5guosj3Ma1XiDKh8x6ADk94r4V4Mpr1Hdtq27N9/wDiBzeOIh2s4vuNt1866T5wPF2H7bf7jKrrpvpXoz5Y+I+oL4zi22XX73+kVb8QIeiX6819uPnPnuDU88mgY2mqo8GBccUK5fsdoPH1ogp9Qef1iut8bUjyJTe9UP58TATUBhcC+b3jdYm7NBs3iOUNuDmx27f7eksPxSQKdAeALDFbPuKNTL1GS+bmVqbJ46etRuqlsVcko6Z2Gu/GGNAioloQGe/zAnqKI5rjnvcWH4v09hTvAPcqKF9eLucJqXPURPKfNt57c+3rKx+NFrJn8mUdH10AEAg2DyD2IPQgzw4vlPlvh3jmXA9qxK1RRiSpFUOOxHHSaS/ifUtbB1H+kIpA+Vgn7mSn8TkTw1ReHyuNrKdnffC9h9hF8vi+DFw+TGpq6JUmvkOZ8813iebIKyZGYf5eFX6haBiASNH4N/5P+jS+ZWIr+z6RqPxnplWwd7dlRWB+pagJlH/+hHmtMPa8h/UbJxZUTwgS0PhcMdq/5ZCXy+aXqX8HXYvx7qL82PER6AOp+5Y/ugtf+NtQ/GPbiH+nzv8A7mFfYTlxLgCP+NxJ3SE+7kaqx/L4xqW/NqMtezso+ykTxNVl/wDdyf73/nFVEIhEZxitIHZ+smTLms1kz/72/wD1JKZMYJPmEk2P+Quf1/2YiC5qeG0rWVs+vYfL3i2NAIzjYdbHE6VSyzneUba6n2h1zJ3P0mMmqAHTj3i+o8QJ/LwBJOU28GUUkdGusUdos+rLHngDmhf6zB/xTnvDY9Udtf8AJ9okoyayx00aBzm+PXiPabIatuCZk7+Adv7+sFn1h6X8zJPjcsIfskamp1w6AwCZB1bp6esykzi+Zdsxv27fKUXFWEK5M08WpskVQ/cIXLrAo2iZXxwPn3/rFhn831uD6rYe1HSaTUWbJ6Sviur8qgdzf2/5mZj1XHPPygtVqrKi+g/fFXG+wzlgJqdVK49USeszsmSzPEy0flL9FVCdsmwNaQauaaau19OOs5hM/N/v6Q6Zq45FyUuFPQ0ZnTabxDsT/feGOTdfPQf8Tmsec+/9+81NPk3D83zJ+U558biVjKx5yCBzZvoOPsTFmxjnk18ou2WhyR7d4qdeBYYfrBHjk9BckthM6r0UX62ff98z82QkVx0v39/nfSGOpq+eOeB9P6RXLlUgALXbgn7n1M6oRa2TlJVgDlVb71/xPMeQ/s8V156+5/vvA5F9/wDjoIMN71UtRGzQTPxz27/biED3MzeSf5wiPBQVJjzN9J4xFxdGN3fXtC7vYH2uahrsq2cDoCTLJqOfMD86ixLXX9/WMIlgA3xNQqbGS1dIvnzsp46f3/KFTIOncV3/AIxTUtZPPH7pkhpPGDz449TJFbkjCWM/FIH6Txt46j9f6ySTPYFoqMtyEySTGPQYRWkkmMWy6oniAJkkmRiwaXDSSTGPC1/OEzaYqt3yOo+3f6ySRXtBWmFQ9OxHeKZn8x+ckkJnoopkQ0enuPaSSEB7iPMZGUk7QOOvJJ4/hJJFY8Q6miDQ45rqCOksdawPqP4f1kki0nsZuimTUW1+or+X8ItlPP3/AEkkjpJE22AZiZ6G9e0kkIAbGUkkmMWSWqSSYx6Gr5R1QvUA/Pjr1/dJJAxoi7mhY9esouTn2EkkIC7ZADYH856GBHm5Nnnn9ZJJjAvhGeSSTGo//9k=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px 30px 30px 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight:lighter;
+    font-style: oblique;
+    padding: 50px 50px 50px 50px;
+    
+    
+ } 
+ h2{
+    background-color: greenyellow;
+    opacity: 0.5;
+ }
+#first p{
+    color: white;
+ }
+ #second{
+    border-style:groove;
+    border-color: blue;
+    border-width: 20px;
+    border-radius: 10px;
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf-BE0zw5ICNNAqwzxIKLg_z1XwsdlfU4So45FdigvylOC0GJeXfLRGS2Iu8DcCL0LGg4&usqp=CAU");
+   background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px 30px 30px 30px;
+    font-family:cursive;
+    font-size: 30px;
+    font-variant:small-caps;
+    font-style: italic;
+    font-weight: bold;
+    padding: 50px 50px 50px 50px;
+ }
+ #second p{
+    color: white;
+ }
+ p[id~="para"]
+ {
+   color:blueviolet;
+
+ }
+ body{
+   outline-style: dashed;
+   outline-color: brown;
+   outline-offset: 10px;
+   outline-width: 5px;
+ }
+ </style>
+    </head>
+    <body>
+
+        <div id="first">
+        <h1 id="heading">CSS Selectors</h1>
+        <h2>CSS Combinators</h2>
+        <p>A combinator is something that explains the relationship between the selectors.</p>
+       <h2>1.Descendant Selector</h2>    
+    <p> The descendant selector matches all elements that are descendants of a specified element.</p>
+   <h2>2.Child Selector (>)</h2>
+   <p>The child selector selects all elements that are the children of a specified element.</p>
+ <h2>3.Adjacent Sibling Selector (+)</h2>
+ <p>The adjacent sibling selector is used to select an element that is directly after another specific element.</p>
+ <h2>4.General Sibling Selector (~)</h2>
+ <p>The general sibling selector selects all elements that are next siblings of a specified element.</p>
+</div>
+
+<div id="second">
+    <h2>CSS [attribute] Selector</h2>
+    <p>The [attribute] selector is used to select elements with a specified attribute.</p>
+    <h2>CSS [attribute="value"] Selector</h2>
+    <p>The [attribute="value"] selector is used to select elements with a specified attribute and value.</p>
+    <h2>CSS [attribute~="value"] Selector</h2>
+    <p>The [attribute~="value"] selector is used to select elements with an attribute value containing a specified word.</p>
+<h2>CSS [attribute|="value"] Selector</h2>
+<p>The [attribute|="value"] selector is used to select elements with the specified attribute, whose value can be exactly the specified value, or the specified value followed by a hyphen (-).</p>
+<h2>CSS [attribute^="value"] Selector</h2>
+<p>The [attribute^="value"] selector is used to select elements with the specified attribute, whose value starts with the specified value.</p>
+<h2>CSS [attribute$="value"] selector</h2>
+<p>The [attribute$="value"] selector is used to select elements whose attribute value ends with a specified value.</p>
+<h2>CSS [attribute*="value"] Selector</h2>
+<p>The [attribute*="value"] selector is used to select elements whose attribute value contains a specified value.</p>
+
+</div>
+
+
+
+<p id="fpara">
+   Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML ...
+
+</p>
+<p id="spara">
+   Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML ...
+
+</p>
+<p id="t-para">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML ...
+
+</p>
+</body>
+</html>

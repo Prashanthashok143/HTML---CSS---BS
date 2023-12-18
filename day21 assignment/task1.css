@@ -1,0 +1,76 @@
+#div1{
+    background-image: linear-gradient(red,
+    yellow,blue,green,orange);
+
+   cursor:help; 
+}
+h1{
+    text-align: center;
+    text-decoration: overline underline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px white;
+    cursor:n-resize;
+}
+p{
+    text-align: left;
+    text-transform: capitalize;
+    text-indent: 30px;
+    color: white;
+    cursor: wait;
+}
+#div2{
+    background-image:linear-gradient(
+ orange,white,green)
+ 
+
+}
+#absolute{
+    background-image: linear-gradient(white,gray,lightblue);
+}
+#unitdesc{
+border: ridge;
+height: 30px;
+display: inline;
+color:white;
+background-image: url(./star\ to\ blur.png);
+backdrop-filter: blur(100%);
+background-image: linear-gradient(red,green,white);
+}
+
+#units{
+background-image: url("./ajiologo.png");
+background-repeat: no-repeat;
+}
+#unitdescs{
+backdrop-filter: blur(10px);
+color: white;
+border: ridge;
+display: inline-block; 
+height: 150px;
+width: 200px;   
+}
+#div3{
+    border: ridge 3px gray;
+    background-image: url(./ajiologo.png);
+
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: white;
+    /* background-image: linear-gradient(to right,red,green,blue) */
+}
+#relative{
+    
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 1px white;
+}
+#unitssssss{
+    border: ridge;
+
+backdrop-filter: blur(50px);
+    color:white;
+   
+   
+    }
+    

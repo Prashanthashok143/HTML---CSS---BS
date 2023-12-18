@@ -1,0 +1,121 @@
+header{
+    display: flex;
+    background-color:whitesmoke;
+}
+#ajio{
+    font-family: 'Arial Narrow Bold';
+font-size: 50px;
+font-weight: bolder;
+font-style: normal;
+letter-spacing: 5px;
+}
+nav{
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+flex-grow: 1;
+flex-wrap: wrap;
+align-content:end;
+
+}
+div{
+    display: flex;
+flex-wrap: wrap;
+align-content:end ;
+    justify-content:space-around;
+    flex-grow: 0.1;
+    flex-direction:row;
+}
+img{
+    border-radius: 30px;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#searchpic{
+    position: relative;
+    border-radius: 100px;
+    right: 35px;
+    top: 1.9px;
+}
+#search{
+    border-radius: 10px;
+    border: inset;
+}
+
+#gif{
+    display: block;
+    position: relative;
+    top: 30px;
+    background-color:white;
+    border:inset saddlebrown;
+    border-radius: 10px;
+
+}
+#gifad{
+    position: relative;
+
+    border: outset maroon;
+    border-radius: 5px;
+    height:450px;
+    width: 1325px;
+}
+#delivery{
+    position: relative;
+    top: 30px;
+    right: 30px;
+    height: 80px;
+    width: 1390px;
+
+}
+#pics1{
+    position: relative;
+    top: 160px;
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:row-reverse;
+}
+#pics2{
+   
+    position: relative;
+    top: 250px;
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:column-reverse;
+}
+.pics{
+    border: black ridge;
+    border-radius: 88px;
+    height: 300px;
+    width: 300px;
+    
+}
+
+#topcarts{
+        position: relative;
+    bottom:1200px;
+    left: 320px;
+    text-transform: capitalize;
+    z-index: 2;
+    font-size: 50px;
+    color:goldenrod;
+    font-weight:bolder;
+    font-family: bold;
+}
+body{
+    background-color: gainsboro
+}
+a:hover{
+    background-color: red;
+}
+#ads{
+    height: 800px;
+    width: 750px;
+    position: relative;
+    bottom: 800px;
+    right: 150px;
+    
+}

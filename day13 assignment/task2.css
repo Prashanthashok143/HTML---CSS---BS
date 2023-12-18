@@ -1,0 +1,22 @@
+#heading{
+text-align: center;
+text-transform: uppercase;
+color:red;
+text-shadow: 2px 2px px  black;
+text-decoration: overline underline dashed;
+letter-spacing: 15px;
+word-spacing: 50px;
+}
+h1{
+    color:blue;
+    text-align: center;
+    text-shadow: 3px 2px 10px black;
+}
+h2{
+    text-align: center;
+    text-decoration: underline ;
+    word-spacing: 10px;
+}
+span{
+    color:red;
+}

@@ -1,0 +1,290 @@
+<html>
+    <head>
+        <title>Praticing</title>
+        <link rel="icon" href=""/>
+        <meta http-equiv="refresh" content="30; URL='../day9 assignment/task2.html'"/>
+        <style>
+            table,th,tr,td{
+                border: solid;
+            }
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <legend><h1>SHANIGARAPU</h1></legend>
+            <form method="get" target="_blank">
+                <fieldset>
+                    <legend><h2>Personal Details</h2></legend>
+                    <label for="fname,laneme">NAME</label><br>
+
+                <label for="fname">Firstname:</label> 
+                <input type="text" placeholder="First name"
+                id="fname" name="fname" pattern="[A-Z]{100}" autofocus
+                 reuired /> 
+                <label for="lname">Lastname:</label> 
+                <input type="text" placeholder="last name"
+                id="lname" name="lname" pattern="[A-Z]{100}" required/> 
+                <input type="date" min="1998-01-01" max="2001-12-31" required/>
+                <br>
+                <label for="">Place-of-Birth</label>
+                <br>
+                <select>
+                    <option selected disabled>Select District</option>
+                    <optgroup label="Telangana">
+                    <option value="Warangal">Warangal</option>
+                    <option value="Jangoan">Jangoan</option></optgroup>
+                    <optgroup label="Andhra Pradesh">
+                        <option value="Kurnool">Kurnool</option>
+                        <option value="kadapa">Kadapa</option>
+                    </optgroup>
+                </select>
+                 
+                 <select>
+                    <option selected disabled>Select Mandal</option>
+                    <optgroup label="Warangal">
+                        <option value="Dharmasagar">Dharmasagar</option>
+                        <option value="Iloni">Iloni</option>
+                    </optgroup>
+                    <optgroup label="Jangoan">
+                        <option value="Ghanpur">Ghanpur(stn)</option>
+                        <option value="Palakurthy">Palakurthi</option>
+                    </optgroup>
+                 </select>
+
+                 <select>
+                    <option selected disabled>Select Village</option>
+                    <optgroup label="Ghanpur(stn)">
+                        <option value="Samudrala">Samudrala</option>
+                        <option value="Ippagudem">Ippagudem</option>
+                    </optgroup>
+                    <optgroup label="Palakurthi">
+                        <option value="Gudur">Gudur</option>
+                        <option vaue="Bommera">Bommera</option>
+                    </optgroup>
+                 </select>
+                 <input type="number" patter="[0-9]{6}"
+                 id="pincode" name="pincode" value="500062"/>
+                 <br>
+                 <label for="Gender">Gender</label>
+                 <input type="radio" id="Male" name="Gender"/>
+                Male</input>
+                <input type="radio" id="Female" name="Gender"/>
+                Female </input>
+                <br>
+                <label for="religion">Religion</label>
+                <input type="text" id="religion" name="religion"
+                value="Indian" readonly>
+                <label for="caste">Caste</label>
+                <select>
+                    <option selected disabled>Select</option>
+                    <option value="BC">BC</option>
+                    <option value="SC">SC</option>
+                    <option value="ST">ST</option>
+                    <option value="Others">Others</option> 
+                 </select>
+                 <label for="caste">Subcaste</label>
+                 <input list="subcaste" name="subcaste" id="caste">
+                 <datalist id="subcaste">
+                    <optgroup label="BC">
+                        <option value="BC-A">
+                        <option value="BC-B"></option>
+                        <option value="BC-C"></option>
+                        <option value="BC-D"></option>
+                    </optgroup>
+                    <option value="ST"></option>
+                    <option value="SC"></option>
+                    <option value="OTHERS"></option>
+                 </datalist>
+                 </fieldset>
+                 <fieldset>
+                    <legend><h2>Contact Details</h2></legend>
+                    Mobile Number:
+                    <input type="tel" pattern="[0-9]{10}" required/>
+                    Alternate Mobile number:
+                    <input type="tel" pattern="[0-9]{10}" required/>
+                    Email Id:
+                    <input type="email" placeholder="example123@gmail.com"/> <br>
+                    Alternate Email Id:
+                    <input type="email" placeholder="example456@gmail.com"/>
+                    <br>
+                    <h3>Social Media Accounts</h3>
+                    Whatsapp:
+                    <input type="tel" pattern="[0-9]{10}"/>
+                    Facebook:
+                    <input type="text" placeholder="username"/>
+                    Instagram:
+                    <input type="text" placeholder="username"/>
+                    Twitter:
+                    <input type="text" placeholder="username"/>
+                    <br>
+                    <label for="TermsandCond">Terms and Conditions</label> <br>
+                    <input type="checkbox" id="TermsandCond" name="TermsandCond"/>
+                    <label for="TermsandCond">These Accounts using from 3 Months</label>
+                    <br>
+                    <input type="checkbox" id="Terms1" name="TermsandCond"/>
+                    <label for="TermsandCond">These Accounts responsablitiy belong to u only</label>
+                    
+                 </fieldset>
+                 <fieldset>
+                    <legend><h2>Uploads</h2></legend>
+                    Image:
+                    <input type="file" multiple required/>
+                    Signature:
+                    <input type="file" required/>
+                 </fieldset>
+
+                 <fieldset>
+                    <legend><h2>Educational Qualifications</h2></legend>
+                    <table>
+                        <tr>
+                            <th>Qualifications</th>
+                            <th>Instution name</th>
+                            <th>Studied years</th>
+                            <th>Place</th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <input type="text"/></td>
+                            <td><input type="text"/></td>
+                            <td><input type="text"/></td>
+                            <td><input type="text"/></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text"/>
+                            </td>
+                            <td><input type="text"/></td>
+                            <td><input type="text"/></td>
+                            <td><input type="text"/></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text"/>
+                            </td>
+                            <td><input type="text"/></td>
+                            <td><input type="text"/></td>
+                            <td><input type="text"/></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text"/>
+                            </td>
+                            <td><input type="text"/></td>
+                            <td><input type="text"/></td>
+                            <td><input type="text"/></td>
+                            
+                        </tr>
+
+                        </table>
+                        <fieldset>
+                            <legend><h2>Hobbies</h2></legend>
+                            <ul>
+                                <li><input type="text" required/> </li>
+                                <li><input type="text" required/>  </li>
+                                <li><input type="text"/>  </li>
+                            </ul>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><h2>Skills</h2></legend>
+                            <ol>
+                                <li><input type="text" required/></li>
+                                <li><input type="text" required/></li>
+                                <li><input type="text" required/></li>
+                                <li><input type="text" required/></li>
+                                <li><input type="text"/></li>
+                                <li><input type="text"/></li>
+                            </ol>
+                        </fieldset>
+
+                 <fieldset>
+                 <legend><h2>Likes</h2></legend>
+                 <h3>Ur Favourite Movie</h3>
+                 <dl>
+                    <dt><input type="text"/></dt>
+                    <dd><input type="text" size="80px"
+                        placeholder="describe the movie u liked"/> </dd>
+                 </dl> <br>
+                 Rate ur movie
+                 <input type="range" min="0" max="10" name="range" />
+                 </fieldset>
+
+                 <fieldset>
+                    <legend><h2>Languages Known</h2></legend>
+                    <ul>
+                        <li><input type="text" required/></li>
+                        <li><input type="text" required/></li>
+                        <li><input type="text" required/></li>
+                        <li><input type="text"/></li>
+                    </ul>
+                 </fieldset>
+
+                 <fieldset>
+                    <legend><h2>Comment</h2></legend>
+                    <textarea rows="10" cols="39"></textarea>
+                 </fieldset>
+
+                 <fieldset>
+                    <legend><h2>URL'S</h2></legend>
+                    <a href="http://www.facebook.com">Facebook</a>
+                    <br>
+                    <a href="http://www.whatsapp.com">
+                 <img src="../day8 Assignment/formslogo.png"
+                 alt="formslogo" height="30px" width="30px"/>
+                    </a>
+                    <br>
+                    <audio controls muted>
+                        <source src="../day9 assignment/[iSongs.info] 01 - Kalaavathi.mp3"/>
+                    </audio>
+                    <video controls muted poster="../day6 Assignment/download.png"
+                    height="300px" width="300px">
+                    <source src="../day9 assignment/Hey-Siggethappa-Yegotedi-Ledoi-Song-Status-Video.mp4">
+                </video>
+                <br>
+
+                <iframe src="../day9 assignment/task1.html" height="500px" 
+                width="500px" name="video"></iframe>
+                <a href="../day9 assignment/Hey-Siggethappa-Yegotedi-Ledoi-Song-Status-Video.mp4"
+                 target="video">status</a>
+
+                 </fieldset>
+
+
+                    
+                        
+                    
+
+                 
+
+
+
+                        
+                       
+                       
+                       
+
+
+                
+            
+                 
+
+                
+
+                 
+
+
+
+
+
+                
+
+
+
+                
+            </form>
+        </fieldset>
+    </body>
+</html>

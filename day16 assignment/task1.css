@@ -1,0 +1,428 @@
+body{
+                border: inset;
+ }
+ #pic1{
+                display: inline-block;
+                border: ridge gray 2px;
+
+
+                position: relative;
+                top: 0px;
+                z-index:1;
+                left: 0px;
+}
+                
+            #pic2{
+        position: relative;
+            top: 10px;
+                z-index: 2;
+                right: 690px;
+                border: ridge black;
+                
+
+            
+      }
+
+        header{
+            position:relative;
+            border: ridge;
+            top: 0px;
+  background-color: gray;
+   z-index: 3;
+padding: 20px;
+
+        }
+    a{
+        color: white;
+        text-decoration: none;
+    } 
+ #aside1{
+   display: inline-block;
+   height: 200px;
+        width:150px;
+        border: ridge;
+        position: relative;
+        bottom: 10px;
+        padding: 0px;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        
+}
+#sp{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: outset rgba(255, 0, 34, 0.973);
+    padding: 5px;
+
+}
+#sarah{
+    border-radius: 100%;
+    height:50px;
+    width: 50px;
+    margin: 10px;
+    border: outset rgba(255, 0, 34, 0.973);
+    padding: 5px;
+}
+#tenk{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: outset rgba(255, 0, 34, 0.973);
+    padding: 5px;
+}
+#sp1{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: outset rgba(255, 0, 34, 0.973);
+    padding: 5px;
+}
+#sp2{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: outset rgba(255, 0, 34, 0.973);
+    padding: 5px;
+}
+
+#aside2{
+    display: inline-block;
+    height: 401px;
+         width:175px;
+         border: ridge;
+         position: relative;
+         bottom: 613px;
+         left: 700px;
+         padding: 0px;
+         overflow-y: scroll;
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         
+         
+ }
+ #sec1{
+    display: flex;
+    align-content: center;
+    position: relative;
+    bottom: 600px;
+    left:180px;
+ }
+ .icon{
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+ }
+ #search{
+    height: 30px;
+    left: 3px;
+    position: relative;
+    top: 18px;
+    border-radius: 10px;
+ }
+ #home{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    bottom: 16px;
+ }
+ #sec2{
+    display: flex;
+    align-content: center;
+    position: relative;
+    bottom: 600px;
+    left:180px;
+ }
+ .stories{
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+ }
+ #add{
+    /* border:solid; */
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+    right: 415px;
+    top: 120px;
+ }
+ #div1{
+    position: relative;
+    left: 200px;
+    bottom: 600px;
+    background-color: gray;
+    height: 200px;
+    width: 500px;
+
+ }
+ #aside3{
+    display: inline-block;
+    height: 200px;
+         width:150px;
+         border: ridge;
+         position: relative;
+         bottom: 1275px;
+         padding: 0px;
+         overflow-y: scroll;
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         
+         
+ }
+ #tagline{
+    color: white;
+    position: relative;
+    top: 40px;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    
+ }
+ 
+ #ts{
+    position: relative;
+    left: 10px;
+    bottom: 60px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+ }
+ .ts{
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+    font-weight: bold;
+ }
+ #verfied{
+    position: relative;
+    bottom: 133px;
+    left: 215px;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    
+ }
+ #div2{
+    position: relative;
+    left: 200px;
+    bottom: 600px;
+    background-color: black;
+    height: 400px;
+    width: 500px;
+
+ }
+ #tsmap{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 100px;
+    top:10px;
+ }
+ #like{
+    position: relative;
+    top: 5px;
+    right: 10px;
+height: 150px;
+    width: 550px;
+ }
+/* #sec2{
+        position: relative;
+        bottom:225px;
+        left:148px;
+
+    }  
+    #fb{
+        position: relative;
+        bottom: 110px;
+    }
+    #formelement{
+        padding: 5px;
+        border-radius: 15px;
+        position: relative;
+        bottom: 120px;
+        text-align: center;
+    }
+    .icons{
+    position: relative;
+    left:220px;
+  bottom:180px;
+  padding: 5px;
+    }
+    #stories{
+        display: inline-block;
+        
+        position: relative;
+        left:200px;
+        bottom: 400px;
+        
+        
+    }
+    #storypic{
+        position: relative;
+        top:0px;
+        
+        z-index: 1;
+    }
+    #create{
+        display: inline-block;
+        background-color:whitesmoke;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+        position: relative;
+        height: 30px;
+        width: 80.8px;
+        top: 10px;
+        right: 83.9px;
+        z-index: 2;
+        
+    }
+    #addlogo{
+        position: relative;
+        right: 147px;
+        z-index: 3;
+        border:ridge;
+        border-radius: 200px;
+        
+    }
+    video{
+        position: relative;
+        bottom: 370.9px;
+        left: 100px;
+        border: solid white;
+        border-radius: 30px;
+        z-index: 1;
+        
+
+    }
+    #nani{
+        position: relative;
+        bottom: 400px;
+        z-index: 2;
+        color: white;
+        left:10px;
+    }
+    #next{
+
+        height: 100px;
+        width: 50px;
+        position: relative;
+        left: 580px;
+        bottom: 500px;
+    }
+    #nextlogo{
+     position: relative;
+     right: 3px;
+    }
+    #requests{
+        overflow: scroll;
+        position: relative;
+        left: 600px;
+        bottom: 1009px;
+        width: 88px;
+        height: 237px;
+        display: inline-block;
+    }
+    #frndrqst{
+        position: relative;
+        bottom: 30px;
+        right: 20px;
+        border-radius: 30px;
+        
+    }
+    
+    .seeall{
+        color:blue;
+        position: relative;
+        left: 60px;
+        bottom: 40px;
+    }
+    .username{
+        color: black;
+        position: relative;
+        left: 40px;
+        bottom: 70px;
+    }
+    p{
+        color: blue;
+        position: relative;
+        right: 30px;
+        
+    }
+    #sec3{
+    position: relative;
+    bottom: 1010px;
+    left: 650px;
+    width: 100px;
+    height: 240px;
+    overflow: scroll;
+    border:solid;
+    }
+    .seeallu{
+        color:blue;
+        padding: 10px 0px 5px 0px;
+    }
+    #features{
+      position: relative;
+      bottom: 989px;
+      overflow: scroll;
+      width: 140px;
+      height: 150px;
+      border: ridge;
+
+      
+    }
+    #list{
+        
+        width: 143px;
+    }
+    #post{
+    padding: 50px;
+    color: white;
+    background-color: gray;
+    width: 300px;
+    position: relative;
+    bottom: 1150px;
+left: 200px;
+    }
+    #tslogo{
+        position: relative;
+        left: 210px;
+        bottom: 1310px;
+        border-radius: 20px;
+    }
+    #ts{
+        color: black;
+        position: relative;
+        left: 245px;
+        bottom: 1350px;
+        font-weight: bold;
+    }
+    #fbpost{
+        position: relative;
+        left: 200px;
+        bottom: 1247px;
+    }
+    #likesharesub{
+        position: relative;
+        left: 200px;
+        bottom: 1250px;
+        
+    }
+    #verfied{
+        position: relative;
+        left: 7px;
+        bottom: 1690px;
+        border-radius: 20px;
+    }
+    */

@@ -1,0 +1,22 @@
+img{
+    height: 100px;
+    width: 100px;
+}
+div{
+    background-color: red;
+    width: 400px;
+    
+}
+@media screen and (min-width:300px) {
+    img{
+        height: 50px;
+        width: 10px;
+    
+    }
+
+    
+        
+        
+    
+    
+}

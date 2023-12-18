@@ -1,0 +1,191 @@
+body{
+    background-image: linear-gradient(white,black);
+}
+#div1{
+    position: relative;
+    left: 200px;
+    top: 0px;
+    background-color: white;
+    height: 900px;
+    width: 800px;
+    border: ridge 3px;
+}
+#dropdownlist{
+    display: none;
+}
+#dropdown:hover #dropdownlist{
+display: block;
+width: 100px;
+}
+header{
+    display: flex;
+}
+nav{
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+}
+#like{
+    display: flex;
+    justify-content: center;
+   align-self: center;
+}
+#msgg{
+    align-self: center; 
+}
+#div2{
+    display: flex;
+}
+#SSMB{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+   border: ridge;
+   padding: 5px;
+}
+#sp{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: outset rgba(255, 0, 34, 0.973);
+    padding: 5px;
+
+}
+#sarah{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: outset rgba(255, 0, 34, 0.973);
+    padding: 5px;
+}
+#tenk{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: outset rgba(255, 0, 34, 0.973);
+    padding: 5px;
+}
+#sp1{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: outset rgba(255, 0, 34, 0.973);
+    padding: 5px;
+}
+#sp2{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: outset rgba(255, 0, 34, 0.973);
+    padding: 5px;
+}
+video{
+    position: relative;
+    top: 100px;
+    left: 0px;
+    height: 400px;
+    width: 100%;
+}
+#nani{
+    position: relative;
+    bottom: 350px;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: outset red;
+    padding: 5px;
+}
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom: 420px;
+    left: 80px;
+}
+#bluetick{
+    position: relative;
+    bottom: 490px;
+    left: 180px;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+   
+    padding: 5px;   
+}
+pre{
+   
+    line-height: 5px;
+    position: relative;
+    bottom: 570px;
+    left: 750px;
+}
+#instalike{
+    position: relative;
+    bottom: 185px;
+    left: 10px;
+    /* border-radius: 100%; */
+    height: 40px;
+    width: 50px;
+    margin: 10px;
+   
+    /* padding: 5px;   */
+}
+#comment{
+    position: relative;
+    bottom: 185px;
+    left: 10px;
+    /* border-radius: 100%; */
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+   
+    /* padding: 5px;   */
+}
+#forward{
+    position: relative;
+    bottom: 185px;
+    left: 10px;
+    /* border-radius: 100%; */
+    height:60px;
+    width: 50px;
+    margin: 10px;
+   
+    /* padding: 5px;   */
+
+}
+#saved{
+    position: relative;
+    bottom: 185px;
+    left: 500px;
+    /* border-radius: 100%; */
+    height:60px;
+    width: 50px;
+    margin: 10px;
+   
+}
+#tagline{
+    position: relative;
+    bottom: 160px;
+    right: 290px;
+    text-decoration: none;
+}
+#add{
+    position: relative;
+    bottom: 830px;
+    left: 75px;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+   /* border: ridge; */
+   padding: 5px;
+}

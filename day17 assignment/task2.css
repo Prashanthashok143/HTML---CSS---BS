@@ -1,0 +1,73 @@
+input:required{
+    background-color:goldenrod;
+}
+input:optional{
+    background-color: aqua;
+}
+
+input:disabled{
+    background-color:yellow;
+    
+}
+label::before{
+    content:"@";
+    color: blue;
+}
+label::after{
+    content: "*";
+    color: red;
+}
+label::first-letter{
+    font-size:large;
+    font-weight: bolder;
+}
+input[id]+label:checked{
+    background-color: blue;
+}
+p::first-letter{
+    font-size: 30px;
+    color:brown;
+    }
+p::selection{
+background-color: red;
+    }
+    #para::first-line{
+color:blue;
+    }
+ a:visited{
+    color:orangered;
+ }
+ a:link{
+    color: red;
+ }   
+ a:active{
+    color:darkmagenta;
+ }   
+ button:hover{
+background-color: red;
+ }
+
+ input[type="reset"]:hover{
+    background-color:green;
+ }
+ input[type="submit"]:hover{
+    background-color:brown;
+ }
+ input[type="text"]:hover{
+    background-color:blue;
+    border: inset 10px;
+ }
+ input[type="tel"]:hover{
+    background-color:blue;
+    border: dashed 3px;
+ }
+input[type="email"]:hover{
+    background-color:green;
+    border: dotted 3px;
+ }
+ input[type]:invalid{
+    background-color: red;
+}
+input[name="check"]:checked+label{
+    background-color: blue;
+}
